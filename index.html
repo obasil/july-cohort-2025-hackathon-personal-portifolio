@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portifolio of Bazil Onyayo - a minister of the Gospel and a computer engineering graduate showcasing projects, skills, interests, education and contact information.">
     <meta name="author" content="Bazil Onyayo">
+    <link rel="shortcut icon" href="/images/basil-onyayo-logo-56px-min.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -16,45 +17,138 @@
         <nav>
             <div class="logo"><img src="/images/basil-onyayo-logo-56px-min.png" alt="Bazil Onyayo Logo" class="logo"></div>
             <div aria-label="Main navigation" class="nav-menu">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="cv" href="/resources/Bazil Onyayo Resume.docx">My CV</a></li>
+                </ul>
             </div>
         </nav>
     </header>
 
-    <section></section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <p>Hi, my name is</p>
+            <h1>Bazil Onyayo.</h1>
+            <h2>I Create IV the Web.</h2>
+            <p>I am a minister of the Gospel and a computer engineering graduate, passionate about crafting extraordinary web experiences.</p>
+            <a href="#contact">Let's Create</a>
+        </div>
+        <div class="hero-image">
+            <img src="/images/bazil-onyao-portifolio-image.PNG" alt="Bazil Onyayo Photo">
+        </div>
+    </section>
 
     <main>
+        <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
-            <h3>Bazil Onyayo</h3>
-            <p>I am a minister of the Gospel and a computer engineering graduate, passionate about crafting extraordinary web experiences. I’m currently enrolled in the July 2025 Cohort at Power Learn Project — shout-out to this incredible initiative driving the #1MillionDevs4Africa mission! Grateful to be part of a movement that’s equipping Africa’s next generation of tech leaders. On my journey to becoming a Flutter mobile app developer!</p>
+            <p>I am Bazil Onyayo, a minister of the Gospel and a computer engineering graduate, passionate about crafting extraordinary web experiences. I’m currently enrolled in the July 2025 Cohort at Power Learn Project — shout-out to this incredible initiative driving the <em>#1MillionDevs4Africa</em> mission! Grateful to be part of a movement that’s equipping Africa’s next generation of tech leaders. On my journey to becoming a Flutter mobile app developer!</p>
+            <a class="cv" href="/resources/Bazil Onyayo Resume.docx">My CV</a>
         </section>
 
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BS Computer Engineering</strong> – UTAMU (2017–2023), CGPA: 4.36</li>
+                <li><strong>Coursera</strong> – Introduction to Software Engineering (Mar 2025)</li>
+                <li><strong>UACE</strong> – Bishop’s Senior School (2015–2016)</li>
+                <li><strong>UCE</strong> – Jinja College (2010–2013)</li>
+                <li><strong>PLE</strong> – Naranbhai Road Primary School (2005–2009)</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <!-- Technical Skills -->
+            <h3>Technical</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript (Intermediate), JQuery</li>
+                <li>WordPress, FTP, cPanel</li>
+                <li>Agile Methodology, IT Support</li>
+            </ul>
+
+            <!-- Soft Skills -->
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Work Ethic, Time Management, Leadership</li>
+                <li>Communication, Problem Solving, Feedback Receptiveness</li>
+            </ul>
+
+            <!-- Language Skills -->
+            <h3>Languages</h3>
+            <ul>
+                <li>English (Fluent), Luganda, Acholi, Lusoga, Swahili</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
         <section id="projects">
             <h2>Projects</h2>
 
-            <article>
-                <h3>Responsive WordPress Site for Gospel Evolution Uganda</h3>
-                <p>Developed a custom WordPress website with focus on mobile responsiveness and performance optimization.</p>
-                <p><em><a href="https://www.gospelevolution.org/">View Site</a></em></p>
-            </article>
+            <!-- List of live projects -->
 
-            <article>
-                <h3>Zero To Hero: WordPress Development Workshop</h3>
-                <p>Designed and facilitated a workshop on WordPress Development for absolute beginners.</p>
-            </article>
+            <div class="project-items">
+                <!-- Project One -->
+                <div class="project-card">
+                    <img src="/images/ge-logo-transparent.png" alt="Project Thumbnail">
+                    <div class="card-content">
+                        <h3>Gospel Evolution Uganda</h3>
+                        <p>
+                            Gospel Evolution Uganda is a Christian-based events management organization located in both Uganda and United Kingdom.
+                        </p>
+                        <p><strong>Technologies Used:</strong> WordPress Plaform</p>
+                        <a href="https://gospelevolution.org" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project Two -->
+                <div class="project-card">
+                    <img src="/images/stenajunior-transparent-logo.png" alt="Project Thumbnail">
+                    <div class="card-content">
+                        <h3>Stena Junior School</h3>
+                        <p>
+                            Stena Junior School is a private junior school in Uganda dedicated to academic excellence, character development, and a nurturing learning environment.
+                        </p>
+                        <p><strong>Technologies Used:</strong> WordPress Plaform</p>
+                        <a href="https://stenajunior.ac.ug/" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        <!-- Interests Section -->
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>I’m driven by a passion for creating web experiences that solve real-world problems. I enjoy teaching, serving in media teams, and building apps that uplift communities. I'm currently enrolled in the Power Learn Project (#1MillionDevs4Africa).</p>
+        </section>
+
+        <!-- Contact Form Section -->
         <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me at: <a href="mailto:basilonyayo@gmail.com">basilonyayo@gmail.com</a></p>
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/basilonyayo@gmail.com" method="POST">
+                <!-- User input fields -->
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
+    <!-- Page Footer -->
     <footer>
-        <p>&copy; 2025 - All rights reserved.</p>
-    </footer>      
+        <p>&copy; 2025 - All Rights Reserved</p>
+    </footer>   
 </body>
 </html>
